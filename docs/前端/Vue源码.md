@@ -1,5 +1,5 @@
 ---
-tags: [Vue2,源码系列]
+tags: [ Vue2 , 源码系列 ]
 ---
 #### 响应式原理
 
@@ -64,7 +64,6 @@ Object.defineProperty(obj, "name", {
 > 2. 第一阶段：(不要求自己全部看懂源码，但是得知道实现的原理，肯定有好多细节代码是看不懂的)
 > 3. 学习设计模式（听说 vue 把能用到的设计模式都用上了）
 
-![image-20211029115835479](https://cdn.jsdelivr.net/gh/JingWZeng/markdownImg/img/202110291158590.png)
 
 ```js
 //封装
@@ -213,6 +212,5 @@ patch 就是作用于 oldVNode 和 VNode 之间。它的作用就是比较两个
 
 就是 VNode 中没有 oldVNode 的所对应的节点。替换节点的过程就是把新的 dom 节点插进去，旧的 dom 节点删除掉。
 
-<img src="https://cdn.jsdelivr.net/gh/JingWZeng/markdownImg/img/202110291550585.png" alt="image-20211029155030527" style="zoom: 80%;" />
 
 #### 未完，待补充
