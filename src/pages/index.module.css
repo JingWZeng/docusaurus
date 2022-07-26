@@ -16,6 +16,26 @@
   }
 }
 
+.tagline{
+  overflow: hidden;
+  margin: 0 auto;
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+}
+.tagline:hover{
+  animation: circle 5s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .buttons {
   display: flex;
   align-items: center;
