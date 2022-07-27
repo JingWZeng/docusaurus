@@ -21,6 +21,14 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        language:'zh'
+      }
+    ]
+  ],
 
   presets: [
     [
